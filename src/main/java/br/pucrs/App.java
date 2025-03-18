@@ -18,10 +18,10 @@ public class App {
             int meio = (inicio + fim) / 2;
             long v1 = encontrarMaiorValor2(A, inicio, meio);   
             long v2 = encontrarMaiorValor2(A, meio + 1, fim);  
-            return Math.max(v1, v2);
+            return Math.max(v1, v2);    
         }
     }
-
+        
     public static long[] gerarVetorAleatorio(int tamanho) {
         long[] vetor = new long[tamanho];
         for (int i = 0; i < tamanho; i++) {
